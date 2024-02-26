@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        text-align: center;
+        background-color: cadetblue;
+        position: relative;
+        left: 500px;
+        width: 400px;
+        border: 2px solid black;
+        margin-top: 200px;
+    }
+    body{
+    background-color: rgb(174, 134, 147);
+}
+ </style>
+</head>
+<body>
+    <div  class="container">
+    <h2>
+        verify  captcha
+    </h2>
+    <form action="/user" method="post">
+        
+       <img src="/captcha.gif" width="150" height="100"><br><br>
+        <input type="text" placeholder="Enter captcha" name="captcha"><br><br>
+
+       <input type="submit">
+
+
+    </form>
+    </div>
+</body>
+</html>
